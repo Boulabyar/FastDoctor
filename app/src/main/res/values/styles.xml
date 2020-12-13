@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#C4C4C4</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Menu Style-->
+    <style name="navigationTheme">
+        <item name="colorPrimary">#000000</item>
+        <item name="android:colorControlHighlight">#C4C4C4</item>
+
+
+    </style>
+
+</resources>

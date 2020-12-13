@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FastDoctor</string>
+    <string name="pr_nom"> Prénom</string>
+    <string name="nom"> Nom</string>
+    <string name="cr_ation_du_compte">Création du compte</string>
+    <string name="adresse"> Adresse</string>
+    <string name="num_tel"> Num tel</string>
+    <string name="e_mail"> E-mail</string>
+    <string name="suivant"><![CDATA[Suivant >>]]></string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prend_rdv">Prend RDV</string>
+    <string-array name="Forum_list">
+        <item>Genéral</item>
+        <item>Cardiologie</item>
+        <item>Dermatologie</item>
+    </string-array>
+</resources>
