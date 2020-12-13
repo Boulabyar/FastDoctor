@@ -1,204 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
+    android:background="@drawable/backround1"
     android:orientation="vertical"
     tools:context=".MainActivity">
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/backround1"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="30dp">
 
-        <ImageView
-            android:id="@+id/logo_image"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/logo" />
-
-        <TextView
-            android:id="@+id/logo_name"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginTop="-15dp"
-            android:fontFamily="@font/allerta_stencil"
-            android:shadowDx="15"
-            android:text="Bien être - Confort et Santé"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="15sp" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-    <LinearLayout
-
-        android:layout_width="320dp"
-        android:layout_height="530dp"
-        android:layout_marginTop="-340dp"
-        android:layout_marginBottom="35dp"
-        android:background="@drawable/block_login"
-        android:orientation="vertical"
-        android:outlineAmbientShadowColor="@color/cardview_shadow_end_color"
-        android:layout_gravity="center">
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/username"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_gravity="center"
-            android:hint=" Nom utilisateur"
-            android:textColorHint="#555454"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#171717"
-                android:textColorLink="#070707"
-                android:textSize="16sp"
-                android:drawableStart="@drawable/ic_user"
-
-                />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/psswd"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:textColorHint="#555454"
-            android:hint=" Mot de passe"
-            app:passwordToggleEnabled="true"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:textColor="#171717"
-                android:textColorHint="#474747"
-                android:textSize="16sp"
-                android:drawableStart="@drawable/ic_passwd"
-                />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <Button
-            android:id="@+id/mdp_oublier"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            android:layout_gravity="right"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:background="#fff"
-            android:clickable="true"
-            android:text=" Mot de passe oublier ? "
-            android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="11sp" />
-
-        <Button
-            android:id="@+id/identifier"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/btn_identifier"
-            android:fontFamily="@font/aldrich"
-            android:nextFocusDown="@id/accessibility_action_clickable_span"
-            android:text="S' IDENTIFIER"
-            android:textColor="#fff"
-            android:textSize="14sp" />
-
-        <View
-            android:id="@+id/divider"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="70dp"
-            android:background="#000000" />
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="-29dp"
-            android:layout_gravity="center"
-            android:clickable="false"
-            android:text="OR"
-            android:textColor="#000000"
-            android:background="@drawable/rcl_or"/>
-        <Button
-            android:id="@+id/btn_facebook"
-            android:layout_width="110dp"
-            android:layout_height="35dp"
-            android:layout_gravity="right"
-            android:layout_marginTop="-15dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/btn_fcb"
-            android:nextFocusDown="@id/accessibility_action_clickable_span"
-            android:text="Facebook"
-            android:textColor="#fff"
-            android:textSize="11sp" />
-        <Button
-
-            android:id="@+id/btn_google"
-            android:layout_width="110dp"
-            android:layout_height="35dp"
-            android:layout_gravity="left"
-            android:layout_marginTop="-35dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/btn_google"
-            android:nextFocusDown="@id/accessibility_action_clickable_span"
-            android:text="Google"
-            android:textColor="#fff"
-            android:textSize="11sp" />
-
-        <TextView
+        <LinearLayout
+            android:id="@+id/linearLayout3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="40dp"
-            android:text="Vous n'avez pas de compte?"
-            android:textColor="#000000"
-            android:textSize="14sp" />
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/signUp_screen"
-            android:layout_width="70dp"
-            android:layout_height="30dp"
-            android:layout_gravity="right"
-            android:layout_marginTop="-27dp"
-            android:layout_marginRight="25dp"
-            android:autoLink="web|phone"
-            android:background="#fff"
-            android:clickable="true"
-            android:elevation="0dp"
-            android:text="S'inscrir."
-            android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="11sp" />
+            <ImageView
+                android:id="@+id/logo_image"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
 
+            <TextView
+                android:id="@+id/logo_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/logo_image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/allerta_stencil"
+                android:shadowDx="15"
+                android:text="Bien être - Confort et Santé"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/block_login"
+            android:orientation="vertical"
+            android:outlineAmbientShadowColor="@color/cardview_shadow_end_color"
+            android:elevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.326">
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:hint=" Nom utilisateur"
+                android:textColorHint="#555454">
 
-    </LinearLayout>
-</LinearLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_user"
+                    android:textColor="#171717"
+                    android:textColorLink="#070707"
+                    android:textSize="16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/psswd"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:hint=" Mot de passe"
+                android:textColorHint="#555454"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_passwd"
+                    android:inputType="textPassword"
+                    android:textColor="#171717"
+                    android:textColorHint="#474747"
+                    android:textSize="16sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/mdp_oublier"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:text=" Mot de passe oublier ? "
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/identifier"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_identifier"
+                android:fontFamily="@font/aldrich"
+                android:nextFocusDown="@id/accessibility_action_clickable_span"
+                android:text="S' IDENTIFIER"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="70dp"
+                android:background="#000000" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-29dp"
+                android:background="@drawable/rcl_or"
+                android:clickable="false"
+                android:text="OR"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_facebook"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-18dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_fcb"
+                android:nextFocusDown="@id/accessibility_action_clickable_span"
+                android:text="Facebook"
+                android:textColor="#fff"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btn_google"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-35dp"
+                android:background="@drawable/btn_google"
+                android:nextFocusDown="@id/accessibility_action_clickable_span"
+                android:text="Google"
+                android:textColor="#fff"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:text="Vous n'avez pas de compte?"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/signUp_screen"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-27dp"
+                android:layout_marginRight="30dp"
+                android:autoLink="web|phone"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="0dp"
+                android:text="S'inscrir."
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
 
 
