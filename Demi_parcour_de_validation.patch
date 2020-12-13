@@ -1,0 +1,30 @@
+Index: app/src/main/java/com/example/fastdoctor/MsgPatientFrag.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/fastdoctor/MsgPatientFrag.java	(date 1607134814333)
++++ app/src/main/java/com/example/fastdoctor/MsgPatientFrag.java	(date 1607134814333)
+@@ -0,0 +1,21 @@
++package com.example.fastdoctor;
++
++import android.os.Bundle;
++
++import androidx.fragment.app.Fragment;
++
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++
++
++public class MsgPatientFrag extends Fragment {
++
++
++    @Override
++    public View onCreateView(LayoutInflater inflater, ViewGroup container,
++                             Bundle savedInstanceState) {
++        // Inflate the layout for this fragment
++        return inflater.inflate(R.layout.msg_patient_frag, container, false);
++    }
++}
+\ No newline at end of file
