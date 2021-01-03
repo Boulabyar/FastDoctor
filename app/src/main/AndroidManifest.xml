@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fastdoctor">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Search"/>
-        <activity android:name=".Home_Patient"/>
-        <activity android:name=".SignUp2ndDoct" />
-        <activity android:name=".SignUp2nd" />
-        <activity android:name=".SignUpDoctor" />
-        <activity android:name=".SignUpPatient" />
-        <activity android:name=".SignUp" />
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".patient.HomePatient" />
+        <activity
+            android:name=".SearchActivity"
+            android:parentActivityName=".patient.HomePatient" />
+        <activity android:name=".patient.HomePatient" />
+        <activity android:name=".patient.SignUp2Patient" />
+        <activity android:name=".patient.SignUp1Patient" />
+        <activity android:name=".doctor.SignUp1Doctor" />
+        <activity android:name=".doctor.SignUp2Doct" />
+        <activity android:name=".doctor.HomeDoctor" />
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

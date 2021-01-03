@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_pofil"
+        android:title="Profil"
+        android:icon="@drawable/ic_user"
+        />
+    <item android:id="@+id/nav_Rdv"
+        android:title="Calendrier"
+        android:icon="@drawable/ic_rdv"
+        />
+    <item android:id="@+id/nav_forum"
+        android:title="Forum"
+        android:icon="@drawable/ic_forum"
+        />
+    <item android:id="@+id/nav_deconect"
+        android:title="Déconnexion"
+        android:icon="@drawable/ic_deconect"
+        />
+
+</group>
+
+</menu>

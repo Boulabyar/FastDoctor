@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MsgFrag">
+    tools:context=".BoiteRMsgFrag"
+    android:background="#B0F1F1F1"
+    android:id="@+id/list_msg">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/List_item_msg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Message patient" />
+        android:layout_height="wrap_content" />
 
 </FrameLayout>

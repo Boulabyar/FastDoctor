@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7838e90b-3fdc-4e4b-8635-06bbb3adb3ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/CommentRecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/DoctorRecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/HeurRdvAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/MsgRecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/NotifRecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/RdvConfirmeRecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/RdvCourantRecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/RdvD_RecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/RdvH_D_RecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/RdvH_P_RecycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/BoiteRMsgFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/ChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Model/ModelCommentPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Model/ModelDoctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Model/ModelMsgPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Model/ModelRdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SearchActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/CalendrierFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/HistoriqueRdvDoctFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/HomeDoctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/HomeDoctorFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/RdvDemandéFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/HistoriqueRdvPatientFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/List_doctorFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/RdvConfirmeFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background_profil.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card_comment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card_notif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heure_no_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heure_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_annuler_rdv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_clock_rdv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_demande_rdv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_diplom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_favorit_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_pharmacie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_rdv_confirme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_suivi_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_suivi_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_warning.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_profil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selector_color_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selector_favorit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selector_heur_rdv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selector_suivi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../font/archivo_black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../font/baloo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_home_patient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/calendrier_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/feedback_accept_rdv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/feedback_contact_doctor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/feedback_contact_patient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/feedback_fix_rdv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/feedback_new_post.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/feedback_refus_rdv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/fix_rdv_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/historique_rdv_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/home_doctor_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_available_day.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_boite_r_msg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_comment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_doctor_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_histo_rdv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_notif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_rdv_confirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_rdv_courant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_rdv_demande.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/list_search_doctor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/menu_header_doctor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/menu_header_patient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/profil_doctor_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/rdv_confirme_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/rdv_demande_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../menu/patient_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Demi_parcour_de_validation.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/CardiologieForumFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Forum/CardiologieForumFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/FixRdvFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/FixRdvFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/ForumFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/ForumFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/ForumPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Model/ModelForumPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/GeneralForumFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Forum/GeneralForumFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/HomePatientFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/HomePatientFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Home_Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/HomePatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/MsgFrag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/MsgPatientFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/ProfilDoctorFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/NotifPatientFrag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/NotificationFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/NotificationFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/PostRecycleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Adapter/PostRecycleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/ProfilPatientFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/ProfilPatientFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SignUp2nd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/SignUp2Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SignUp2ndDoct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/SignUp2Doct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SignUpDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/doctor/SignUp1Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/fastdoctor/SignUpPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/fastdoctor/patient/SignUp1Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-anydpi/ic_diplom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-hdpi/ic_diplom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-hdpi/img_profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-mdpi/ic_diplom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xhdpi/ic_diplom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xxhdpi/ic_diplom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backgroud_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backgroud_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block_general.xml" beforeDir="false" afterPath="$PROJECT_DIR$/block_general.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/block_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btn_identifier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/btn_identifier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ic_baseline_disc_full_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ic_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ic_favorit_off.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_prolif.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_home__patient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_home_doctor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sign_up2nd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_signup2_patient.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sign_up2nd_doct.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_signup2_doctor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sign_up_doctor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_signup1_doctor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sign_up_patient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_signup1_patient.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/cardiologie_forum_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/cardiologie_forum_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/fix_rdv_flag_frag.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/forum_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/forum_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/general_forum_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/general_forum_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/home_patient_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/home_patient_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/item_post_forum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/item_post_forum.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/menu_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/msg_patient_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/msg_patient_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/notif_patient_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/notif_patient_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/profil_patient_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/profil_patient_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../menu/doctor_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../menu/menu_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../menu/menu_nav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/styles.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1mQ4UJo6QrcaoyHD2Ap9BXPNZx7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7838e90b-3fdc-4e4b-8635-06bbb3adb3ca" name="Default Changelist" comment="" />
+      <created>1609412495078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609412495078</updated>
+    </task>
+    <servers />
+  </component>
+</project>
