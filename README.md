@@ -1,8 +1,9 @@
 # FastDoctor-frend
 La partie frontend d'une application de prise des rendez-vous chez un médecin avec deux fonctionnalités supplémentaire (Forum, conversation privé)
+développé en `Android`-`Java`
 developper par : Boulabiar Majdi.
 
-`Screenshots`
+## Screenshots
 ### Patient account:
 
 Login Page               |  type of account Page               | Signup 1 Page               |  Signup 2 Page
